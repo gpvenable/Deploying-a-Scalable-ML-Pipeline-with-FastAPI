@@ -26,11 +26,11 @@ class Data(BaseModel):
     hours_per_week: int = Field(..., example=40, alias="hours-per-week")
     native_country: str = Field(..., example="United-States", alias="native-country")
 
-path = load_model("model/encoder.pkl")
-encoder = load_model(path)
+encoder = load_model("model/encoder.pkl")
 
-path = load_model("model/model.pkl")
-model = load_model(path)
+
+model = load_model("model/model.pkl")
+
 
 # TODO: create a RESTful API using FastAPI
 app = FastAPI()
