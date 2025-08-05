@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from ml.model import train_model, inference, compute_metrics, compute_model_metrics
+from ml.model import train_model, inference, compute_model_metrics
 
 
 # TODO: add necessary import
